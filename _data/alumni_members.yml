@@ -1,0 +1,57 @@
+- name: Alexander Cieslewicz
+  photo: blank_image.png
+  info: Master with Thesis Student
+  email: acieslewicz@mines.edu
+  number_educ: 1
+  education1: Bachelor Degree in Electrical Engineering and Computer Science, Colorado School of Mines
+
+- name: Justin McGowen
+  photo: blank_image.png
+  info: Master with Thesis Student
+  email: jmcgowen@mines.edu
+  number_educ: 1
+  education1: Bachelor Degree in Computer Science Major, Aero- and Astronautical-Engineering Minor, University of Washington
+
+- name: Austin Latham
+  photo: blank_image.png
+  info: Master Student
+  email: aclatham@mines.edu
+  number_educ: 1
+  education1: Bachelor Degree in Computer Science, Colorado School of Mines
+
+- name: Dong Lee
+  photo: blank_image.png
+  info: Master Student
+  email: lee2@mines.edu
+  number_educ: 1
+  education1: Bachelor Degree in Computer Science, Colorado School of Mines
+
+- name: Allyssa Rued
+  photo: blank_image.png
+  info: Bachelor Student
+  email: allyssaarued@mines.edu
+  number_educ: 0
+  
+- name: Andrew Depke
+  photo: blank_image.png
+  info: Bachelor Student
+  email: andrewdepke@mines.edu
+  number_educ: 0
+
+- name: Andrew Mueller
+  photo: blank_image.png
+  info: Bachelor Student
+  email: mueller@mines.edu
+  number_educ: 0
+
+- name: Christopher Cathcart
+  photo: blank_image.png
+  info: Bachelor Student
+  email: cscathcart@mines.edu
+  number_educ: 0
+
+- name: Walden Ruemmele
+  photo: blank_image.png
+  info: Bachelor Student
+  email: ruemmele@mines.edu
+  number_educ: 0
