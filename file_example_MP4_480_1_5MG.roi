@@ -2,7 +2,7 @@
   "frames": [
     {
       "start-time": 0,
-      "end-time": 10,
+      "end-time": 5,
       "objects": [
         {
           "object-id": "12345",
@@ -13,19 +13,29 @@
             "width": 250,
             "height": 250
           }
+        },
+        {
+          "object-id": "12345",
+          "annotation": "Spincoater",
+          "geometry": {
+            "x": 250,
+            "y": 200,
+            "width": 250,
+            "height": 250
+          }
         }
       ]
     },
     {
-      "start-time": 10,
-      "end-time": 20,
+      "start-time": 5,
+      "end-time": 15,
       "objects": [
         {
           "object-id": "12345",
           "annotation": "ALD device",
           "geometry": {
-            "x": 200,
-            "y": 150,
+            "x": 100,
+            "y": 50,
             "width": 300,
             "height": 300
           }
