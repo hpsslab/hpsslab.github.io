@@ -1,7 +1,7 @@
 ---
-title: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 - Home"
+title: "HPSS-Lab - Home"
 layout: homelay
-excerpt: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 at Colorado School of Mines"
+excerpt: "HPSS-Lab at Colorado School of Mines"
 sitemap: false
 permalink: /
 ---
