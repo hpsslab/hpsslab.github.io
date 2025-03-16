@@ -7,7 +7,7 @@
         {
           "object-id": "12345",
           "annotation": "ALD device",
-          "infoURL": "https://hpss.mines.edu"
+          "infoURL": "https://hpss.mines.edu/"
           "geometry": {
             "x": 150,
             "y": 100,
