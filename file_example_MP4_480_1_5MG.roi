@@ -7,7 +7,7 @@
         {
           "object-id": "12345",
           "annotation": "ALD device",
-          "infoURL": "https://hpss.mines.edu/"
+          "infoURL": "https://hpss.mines.edu/index.html"
           "geometry": {
             "x": 150,
             "y": 100,
@@ -18,7 +18,7 @@
         {
           "object-id": "12345",
           "annotation": "Spincoater",
-          "infoURL": "https://hpss.mines.edu/research/"
+          "infoURL": "https://hpss.mines.edu/research/index.html"
           "geometry": {
             "x": 250,
             "y": 200,
@@ -35,7 +35,7 @@
         {
           "object-id": "12345",
           "annotation": "ALD device",
-          "infoURL": "https://hpss.mines.edu/"
+          "infoURL": "https://hpss.mines.edu/index.html"
           "geometry": {
             "x": 100,
             "y": 50,
