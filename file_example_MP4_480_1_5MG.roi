@@ -1,38 +1,49 @@
 {
-    "frames": [
+  "frames": [
+    {
+      "start-time": 0,
+      "end-time": 5,
+      "objects": [
         {
-            "start-time": 1,
-            "end-time": 2,
-            "objects": [
-                {
-                    "object-id": "e_beam_evaporator",
-                    "annotation": "e-beam evaporator",
-                    "infoURL": "https://hpss.mines.edu/",
-                    "geometry": {
-                        "x": 506,
-                        "y": 422,
-                        "width": 88,
-                        "height": 163
-                    }
-                }
-            ]
+          "object-id": "12345",
+          "annotation": "ALD device",
+          "infoURL": "https://hpss.mines.edu/",
+          "geometry": {
+            "x": 150,
+            "y": 100,
+            "width": 250,
+            "height": 250
+          }
         },
         {
-            "start-time": 2,
-            "end-time": 3,
-            "objects": [
-                {
-                    "object-id": "e_beam_evaporator",
-                    "annotation": "e-beam evaporator",
-                    "infoURL": "https://hpss.mines.edu/",
-                    "geometry": {
-                        "x": 782,
-                        "y": 421,
-                        "width": 81,
-                        "height": 167
-                    }
-                }
-            ]
+          "object-id": "12345",
+          "annotation": "Spincoater",
+          "infoURL": "https://hpss.mines.edu/research/index.html",
+          "geometry": {
+            "x": 250,
+            "y": 200,
+            "width": 250,
+            "height": 250
+          }
         }
-    ]
-}
+      ]
+    },
+    {
+      "start-time": 5,
+      "end-time": 15,
+      "objects": [
+        {
+          "object-id": "12345",
+          "annotation": "ALD device",
+          "infoURL": "https://hpss.mines.edu/index.html",
+          "geometry": {
+            "x": 100,
+            "y": 50,
+            "width": 300,
+            "height": 300
+          }
+        }
+      ]
+    }
+  ]
+} 
