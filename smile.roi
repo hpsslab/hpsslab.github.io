@@ -1,0 +1,38 @@
+{
+    "frames": [
+        {
+            "start-time": 1,
+            "end-time": 2,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/",
+                    "geometry": {
+                        "x": 506,
+                        "y": 422,
+                        "width": 88,
+                        "height": 163
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 2,
+            "end-time": 3,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/",
+                    "geometry": {
+                        "x": 782,
+                        "y": 421,
+                        "width": 81,
+                        "height": 167
+                    }
+                }
+            ]
+        }
+    ]
+}
