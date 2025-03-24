@@ -356,6 +356,937 @@
                     }
                 }
             ]
+        },
+        {
+            "start-time": 2.4,
+            "end-time": 2.5,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 556,
+                        "y": 284,
+                        "width": 56,
+                        "height": 116
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 2.5,
+            "end-time": 2.6,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 562,
+                        "y": 284,
+                        "width": 57,
+                        "height": 115
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 2.6,
+            "end-time": 2.7,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 569,
+                        "y": 283,
+                        "width": 56,
+                        "height": 118
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 2.7,
+            "end-time": 2.8,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 575,
+                        "y": 284,
+                        "width": 58,
+                        "height": 116
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 2.8,
+            "end-time": 2.9,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 578,
+                        "y": 283,
+                        "width": 58,
+                        "height": 119
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 2.9,
+            "end-time": 3.0,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 582,
+                        "y": 284,
+                        "width": 59,
+                        "height": 121
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.0,
+            "end-time": 3.1,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 587,
+                        "y": 284,
+                        "width": 59,
+                        "height": 120
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.1,
+            "end-time": 3.2,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 590,
+                        "y": 284,
+                        "width": 61,
+                        "height": 123
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.2,
+            "end-time": 3.3,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 595,
+                        "y": 284,
+                        "width": 60,
+                        "height": 124
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.3,
+            "end-time": 3.4,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 597,
+                        "y": 283,
+                        "width": 60,
+                        "height": 126
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.4,
+            "end-time": 3.5,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 600,
+                        "y": 283,
+                        "width": 62,
+                        "height": 127
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.5,
+            "end-time": 3.6,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 603,
+                        "y": 283,
+                        "width": 63,
+                        "height": 126
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.6,
+            "end-time": 3.7,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 604,
+                        "y": 283,
+                        "width": 65,
+                        "height": 127
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.7,
+            "end-time": 3.8,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 607,
+                        "y": 283,
+                        "width": 66,
+                        "height": 129
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.8,
+            "end-time": 3.9,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 610,
+                        "y": 282,
+                        "width": 65,
+                        "height": 131
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 3.9,
+            "end-time": 4.0,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 612,
+                        "y": 283,
+                        "width": 67,
+                        "height": 133
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.0,
+            "end-time": 4.1,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 613,
+                        "y": 282,
+                        "width": 69,
+                        "height": 134
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.1,
+            "end-time": 4.2,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 615,
+                        "y": 281,
+                        "width": 70,
+                        "height": 136
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.2,
+            "end-time": 4.3,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 617,
+                        "y": 281,
+                        "width": 70,
+                        "height": 136
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.3,
+            "end-time": 4.4,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 617,
+                        "y": 282,
+                        "width": 72,
+                        "height": 138
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.4,
+            "end-time": 4.5,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 620,
+                        "y": 282,
+                        "width": 73,
+                        "height": 140
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.5,
+            "end-time": 4.6,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 623,
+                        "y": 283,
+                        "width": 71,
+                        "height": 140
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.6,
+            "end-time": 4.7,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 624,
+                        "y": 283,
+                        "width": 74,
+                        "height": 141
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.7,
+            "end-time": 4.8,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 627,
+                        "y": 282,
+                        "width": 75,
+                        "height": 143
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.8,
+            "end-time": 4.9,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 630,
+                        "y": 281,
+                        "width": 76,
+                        "height": 145
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 4.9,
+            "end-time": 5.0,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 633,
+                        "y": 281,
+                        "width": 76,
+                        "height": 146
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.0,
+            "end-time": 5.1,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 638,
+                        "y": 283,
+                        "width": 78,
+                        "height": 148
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.1,
+            "end-time": 5.2,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 641,
+                        "y": 282,
+                        "width": 79,
+                        "height": 151
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.2,
+            "end-time": 5.3,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 644,
+                        "y": 282,
+                        "width": 80,
+                        "height": 154
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.3,
+            "end-time": 5.4,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 645,
+                        "y": 282,
+                        "width": 83,
+                        "height": 154
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.4,
+            "end-time": 5.5,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 648,
+                        "y": 282,
+                        "width": 84,
+                        "height": 155
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.5,
+            "end-time": 5.6,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 650,
+                        "y": 281,
+                        "width": 84,
+                        "height": 157
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.6,
+            "end-time": 5.7,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 653,
+                        "y": 281,
+                        "width": 85,
+                        "height": 158
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.7,
+            "end-time": 5.8,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 654,
+                        "y": 281,
+                        "width": 87,
+                        "height": 162
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.8,
+            "end-time": 5.9,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 656,
+                        "y": 282,
+                        "width": 89,
+                        "height": 164
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 5.9,
+            "end-time": 6.0,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 658,
+                        "y": 282,
+                        "width": 91,
+                        "height": 166
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 500,
+                        "y": 297,
+                        "width": 32,
+                        "height": 35
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.0,
+            "end-time": 6.1,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 661,
+                        "y": 283,
+                        "width": 91,
+                        "height": 168
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.1,
+            "end-time": 6.2,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 664,
+                        "y": 282,
+                        "width": 92,
+                        "height": 170
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 502,
+                        "y": 298,
+                        "width": 34,
+                        "height": 33
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.2,
+            "end-time": 6.3,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 667,
+                        "y": 281,
+                        "width": 94,
+                        "height": 174
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 503,
+                        "y": 297,
+                        "width": 34,
+                        "height": 35
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.3,
+            "end-time": 6.4,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 671,
+                        "y": 281,
+                        "width": 95,
+                        "height": 176
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 504,
+                        "y": 297,
+                        "width": 35,
+                        "height": 35
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.4,
+            "end-time": 6.5,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 675,
+                        "y": 282,
+                        "width": 99,
+                        "height": 179
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 507,
+                        "y": 300,
+                        "width": 34,
+                        "height": 34
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.5,
+            "end-time": 6.6,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 679,
+                        "y": 282,
+                        "width": 101,
+                        "height": 182
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 509,
+                        "y": 301,
+                        "width": 34,
+                        "height": 34
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.6,
+            "end-time": 6.7,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 682,
+                        "y": 282,
+                        "width": 104,
+                        "height": 185
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 510,
+                        "y": 301,
+                        "width": 35,
+                        "height": 34
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.7,
+            "end-time": 6.8,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 687,
+                        "y": 282,
+                        "width": 102,
+                        "height": 188
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 511,
+                        "y": 301,
+                        "width": 36,
+                        "height": 34
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.8,
+            "end-time": 6.9,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 690,
+                        "y": 280,
+                        "width": 106,
+                        "height": 192
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 513,
+                        "y": 301,
+                        "width": 35,
+                        "height": 34
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 6.9,
+            "end-time": 7.0,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 693,
+                        "y": 281,
+                        "width": 107,
+                        "height": 194
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 514,
+                        "y": 300,
+                        "width": 36,
+                        "height": 35
+                    }
+                }
+            ]
+        },
+        {
+            "start-time": 7.0,
+            "end-time": 7.1,
+            "objects": [
+                {
+                    "object-id": "e_beam_evaporator",
+                    "annotation": "e-beam evaporator",
+                    "infoURL": "https://hpss.mines.edu/e_beam_evaporator.html",
+                    "geometry": {
+                        "x": 696,
+                        "y": 280,
+                        "width": 110,
+                        "height": 197
+                    }
+                },
+                {
+                    "object-id": "diener_parylene_coater",
+                    "annotation": "coater",
+                    "infoURL": "https://hpss.mines.edu/diener_parylene_coater.html",
+                    "geometry": {
+                        "x": 516,
+                        "y": 301,
+                        "width": 34,
+                        "height": 34
+                    }
+                },
+                {
+                    "object-id": "wafer",
+                    "annotation": "wafer",
+                    "infoURL": "https://hpss.mines.edu/wafer.html",
+                    "geometry": {
+                        "x": 1007,
+                        "y": 639,
+                        "width": 180,
+                        "height": 70
+                    }
+                }
+            ]
         }
     ]
 }
