@@ -2962,17 +2962,6 @@
                         "width": 60,
                         "height": 55
                     }
-                },
-                {
-                    "object-id": "e_beam_evaporator",
-                    "annotation": "e-beam evaporator",
-                    "infoURL": "https://hpss.mines.edu/smile/e_beam_evaporator.html",
-                    "geometry": {
-                        "x": 691,
-                        "y": 220,
-                        "width": 586,
-                        "height": 498
-                    }
                 }
             ]
         },
