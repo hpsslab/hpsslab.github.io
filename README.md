@@ -1,13 +1,10 @@
-# CKEditor 5 sample
+# 𝕙𝘆𝕡𝗲𝕤𝘆𝕤 - High Performance Systems and Software Website
 
-Thank you for downloading the sample. To run it, start a web server (`nginx`, `caddy` or any other) that will serve the file.
+This is the website of our academic research group at Colorado School of Mines.
 
-Want to test more features? Get started with CKEditor 5 Builder 🚀
+This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to make it simple yet adaptable, so that it is easy for you to use it as a template. Plese feel free to copy and modify for your own purposes.  You don't have to link to us or mention us (but of course we appreciate it). We appreciate Allan Lab for open-sourced template.
 
-With [CKEditor’s interactive builder](https://ckeditor.com/ckeditor-5/builder/), select:
+Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
 
-* The features you need.
-* Your preferred framework (React, Angular, Vue, or Vanilla JS).
-* Your preferred distribution method (CDN or npm).
 
-You’ll get ready-to-use code snippets, tailored to your needs.
+Copyright 𝕙𝘆𝕡𝗲𝕤𝘆𝕤 - High Performance Systems and Software Website. Code released under the MIT License.
