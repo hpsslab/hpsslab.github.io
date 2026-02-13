@@ -1,3 +1,83 @@
+- title: "HARNESS: Holistic Resource Management for Diversely Scaled Edge Cloud Systems"
+  image: dummy.png
+  description: We propose a holistic resource management framework for diversely scaled edge cloud systems that optimizes workload placement and resource allocation across heterogeneous edge and cloud nodes.
+  authors: Ismet Dagli, Justin Davis, Mehmet E. Belviranli
+  link:
+    url: https://mehmet.belviranli.com/papers/ics25.pdf
+    display: ACM International Conference on Supercomputing (ICS'25)
+  highlight: 1
+  news2:
+
+- title: "MC3: Memory Contention-Based Covert Channel Communication on Shared DRAM System-on-Chips"
+  image: dummy.png
+  description: We present MC3, a covert channel attack that exploits shared memory contention patterns on heterogeneous System-on-Chips to enable unauthorized communication between isolated processing units.
+  authors: Ismet Dagli, James Crea, Soner Seckiner, Yuanchao Xu, Selcuk Kose, Mehmet E. Belviranli
+  link:
+    url: https://mehmet.belviranli.com/papers/date25.pdf
+    display: Design, Automation & Test in Europe Conference (DATE'25)
+  highlight: 1
+  news2:
+
+- title: "Scheduling for Cyber-Physical Systems with Heterogeneous Processing Units under Real-World Constraints"
+  image:
+  description:
+  authors: Justin McGowen, Ismet Dagli, Neil T. Dantam, Mehmet E. Belviranli
+  link:
+    url: https://mehmet.belviranli.com/papers/ics24.pdf
+    display: ACM International Conference on Supercomputing (ICS'24)
+  highlight: 0
+  news2:
+
+- title: "Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs"
+  image:
+  description:
+  authors: Ismet Dagli, Mehmet E. Belviranli
+  link:
+    url: https://mehmet.belviranli.com/papers/ppopp24.pdf
+    display: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP'24)
+  highlight: 0
+  news2:
+
+- title: "Exploring Page-based RDMA for Irregular GPU Workloads"
+  image:
+  description:
+  authors: Benjamin Wagley, Pak Markthub, James Crea, Bo Wu, Mehmet E. Belviranli
+  link:
+    url:
+    display: GPGPU Workshop at PPoPP'24
+  highlight: 0
+  news2:
+
+- title: "A Runtime Manager Integrated Emulation Environment for Heterogeneous SoC Design with RISC-V Cores"
+  image:
+  description:
+  authors: Hasan Umut Suluhan, Serhan Gener, Alexander Fusco, Joshua Mack, Ismet Dagli, Cagatay Edemen, Ali Akoglu, Mehmet E. Belviranli
+  link:
+    url:
+    display: IPDPS Workshops'24
+  highlight: 0
+  news2:
+
+- title: "Contention-aware Performance Modeling for Heterogeneous Edge and Cloud Systems"
+  image:
+  description:
+  authors: Ismet Dagli, Andrew Depke, Andrew Mueller, Md Sahil Hassan, Ali Akoglu, Mehmet E. Belviranli
+  link:
+    url:
+    display: FRAME Workshop at HPDC'23
+  highlight: 0
+  news2:
+
+- title: "Constraint-Aware Resource Management for Cyber-Physical Systems"
+  image:
+  description:
+  authors: Justin McGowen, Ismet Dagli, Neil T. Dantam, Mehmet E. Belviranli
+  link:
+    url:
+    display: Design, Automation & Test in Europe Conference - Work in Progress (DATE'24 WiP)
+  highlight: 0
+  news2:
+
 - title: "Context-aware Multi-Model Object Detection for Diversely Heterogeneous Compute Systems"
   image: date24_table.png
   description: We propose the use of multiple accelerators and many distinct object detection deep neural networks to improve the energy efficiency of continuous object detection scenarios.

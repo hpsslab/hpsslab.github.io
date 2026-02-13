@@ -1,3 +1,15 @@
+- name: Ismet Dagli
+  photo: ismet_dagli.jpg
+  info: Ph.D. Student
+  duration: Spring 2020 - Spring 2025, now Sr. Software Engineer at Microsoft HPC-AI team
+  number_educ: 0
+
+- name: Ryan Marsala
+  photo: blank_image.png
+  info: Master with Thesis Student
+  duration: Graduated Spring 2025
+  number_educ: 0
+
 - name: Alexander Cieslewicz
   photo: blank_image.png
   info: Master with Thesis Student
@@ -54,4 +66,22 @@
   photo: blank_image.png
   info: Bachelor Student
   email: ruemmele@mines.edu
+  number_educ: 0
+
+- name: James Crea
+  photo: blank_image.png
+  info: Bachelor Student
+  duration: Graduated, now pursuing Ph.D. at University of Illinois Urbana-Champaign
+  number_educ: 0
+
+- name: Colter Snyder
+  photo: blank_image.png
+  info: Bachelor Student
+  duration: Graduated
+  number_educ: 0
+
+- name: Hunter Stone
+  photo: blank_image.png
+  info: Bachelor Student
+  duration: Graduated
   number_educ: 0

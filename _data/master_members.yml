@@ -1,6 +1,17 @@
-- name: Ryan Marsala
+- name: Ali Ozaslan
   photo: blank_image.png
   info: Master with Thesis Student
-  email: ramarsala@mines.edu
-  number_educ: 1
-  education1: Bachelor Degree in Computer Science, Colorado School of Mines
+  email:
+  number_educ: 0
+
+- name: Jack Hall
+  photo: blank_image.png
+  info: Master Student
+  email:
+  number_educ: 0
+
+- name: Tristan Yan
+  photo: blank_image.png
+  info: Master Student
+  email:
+  number_educ: 0
