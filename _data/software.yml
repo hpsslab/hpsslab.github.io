@@ -1,0 +1,24 @@
+# Publication Implementations - code from published papers
+- title: "Example Publication Code"
+  description: "Placeholder - add code repositories associated with your published papers here."
+  link: "https://github.com/hpsslab/example"
+  section: publications
+
+# Tools - software tools built by the lab
+- title: "Example Lab Tool"
+  description: "Placeholder - add software tools developed by lab members (e.g., Ryan's and Ben's tools) here."
+  link: "https://github.com/hpsslab/example-tool"
+  section: tools
+
+# Software We Use - external software with categories
+- title: "Example Development Tool"
+  description: "Placeholder - add development tools the lab uses here."
+  link: "https://example.com"
+  section: software_we_use
+  category: "Development Tools"
+
+- title: "Example Plugin"
+  description: "Placeholder - add plugins and extensions the lab recommends here."
+  link: "https://example.com"
+  section: software_we_use
+  category: "Plugins & Extensions"
