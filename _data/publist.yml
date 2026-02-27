@@ -1,5 +1,5 @@
 - title: "HARNESS: Holistic Resource Management for Diversely Scaled Edge Cloud Systems"
-  image: dummy.png
+  image: harness_overview.png
   description: We propose a holistic resource management framework for diversely scaled edge cloud systems that optimizes workload placement and resource allocation across heterogeneous edge and cloud nodes.
   authors: Ismet Dagli, Justin Davis, Mehmet E. Belviranli
   link:
@@ -9,7 +9,7 @@
   news2:
 
 - title: "MC3: Memory Contention-Based Covert Channel Communication on Shared DRAM System-on-Chips"
-  image: dummy.png
+  image: mc3_overview.png
   description: We present MC3, a covert channel attack that exploits shared memory contention patterns on heterogeneous System-on-Chips to enable unauthorized communication between isolated processing units.
   authors: Ismet Dagli, James Crea, Soner Seckiner, Yuanchao Xu, Selcuk Kose, Mehmet E. Belviranli
   link:

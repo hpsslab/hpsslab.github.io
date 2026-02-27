@@ -1,7 +1,7 @@
 ---
-title: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab - Publications"
+title: "hpsslab Lab - Publications"
 layout: gridlay
-excerpt: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab -- Publications."
+excerpt: "hpsslab Lab -- Publications."
 sitemap: false
 permalink: /publications/
 ---

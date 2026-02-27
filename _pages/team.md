@@ -1,7 +1,7 @@
 ---
-title: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab - Team"
+title: "hpsslab Lab - Team"
 layout: gridlay
-excerpt: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab: Team members"
+excerpt: "hpsslab Lab: Team members"
 sitemap: false
 permalink: /team/
 ---

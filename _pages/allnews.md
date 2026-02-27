@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab at Colorado School of Mines."
+excerpt: "hpsslab Lab at Colorado School of Mines."
 sitemap: false
 permalink: /allnews.html
 ---

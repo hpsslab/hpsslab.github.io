@@ -1,4 +1,4 @@
-# 𝕙𝘆𝕡𝗲𝕤𝘆𝕤 - High Performance Systems and Software Website
+# hpsslab - High Performance Systems and Software Website
 
 This is the website of our academic research group at Colorado School of Mines.
 
@@ -7,4 +7,4 @@ This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to mak
 Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
 
 
-Copyright 𝕙𝘆𝕡𝗲𝕤𝘆𝕤 - High Performance Systems and Software Website. Code released under the MIT License.
+Copyright hpsslab - High Performance Systems and Software Website. Code released under the MIT License.

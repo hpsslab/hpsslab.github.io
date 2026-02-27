@@ -1,7 +1,7 @@
 ---
-title: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab - Software"
+title: "hpsslab Lab - Software"
 layout: textlay
-excerpt: "𝕙𝘆𝕡𝗲𝕤𝘆𝕤 Lab -- Software"
+excerpt: "hpsslab Lab -- Software"
 sitemap: false
 permalink: /software/
 ---
