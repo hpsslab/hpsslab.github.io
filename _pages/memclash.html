@@ -1,0 +1,13 @@
+---
+title: "Mem-Clash | HPSS Lab"
+layout: default
+nav: research
+excerpt: "Shared memory security research on heterogeneous mobile systems, including the MC3 memory contention covert channel."
+permalink: /memclash.html
+---
+<div class="wrapper page-shell">
+  <header class="page-intro"><p class="eyebrow">Memory systems and security</p><h1>Mem-Clash</h1><p class="lede">Shared memory related security challenges in mobile computing platforms.</p><p>Processors on a mobile system on chip often share the same DRAM. When applications compete for memory bandwidth, the resulting slowdown can reveal information about other workloads.</p><div class="resource-links"><a href="https://mehmet.belviranli.com/papers/date25.pdf">MC3 paper, DATE 2025 ↗</a><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2350228">NSF award 2350228 ↗</a></div></header>
+  <section class="research-area"><div class="area-intro"><h2>Measuring contention and leakage</h2><p>The project studies how applications observe memory demand across accelerators, what those observations reveal, and how a system can reduce leakage.</p></div><div class="project-list"><article><h3>Characterization</h3><p>Profile the memory demands of neural network layers and accelerator types. Measure how a sensing application responds as other workloads execute.</p></article><article><h3>Attack analysis</h3><p>Examine whether contention signatures reveal network properties or enable communication between otherwise isolated workloads. MC3 studies a covert channel based on shared DRAM contention.</p></article><article><h3>Countermeasures</h3><p>Investigate memory controller policies and randomization methods that obscure contention signatures, while considering the performance cost.</p></article></div></section>
+  <figure class="project-figure"><img src="{{ '/images/pubpic/mc3_overview.png' | relative_url }}" alt="Overview of the MC3 covert channel based on contention in shared memory" loading="lazy"><figcaption>MC3 studies contention as a communication channel on systems with shared DRAM.</figcaption></figure>
+  <section class="inline-callout"><div><h2>Related research</h2><p>Memory contention also affects scheduling and performance prediction.</p></div><a class="button" href="{{ '/research/#architecture' | relative_url }}">Memory and architecture <span aria-hidden="true">→</span></a></section>
+</div>

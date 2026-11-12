@@ -1,0 +1,43 @@
+---
+title: "Research | HPSS Lab"
+layout: default
+nav: research
+excerpt: "Research topics in AI acceleration, heterogeneous computing, autonomous systems, memory security, spatial reasoning, and workforce development for the semiconductor industry."
+permalink: /research/
+---
+<div class="wrapper page-shell research-page">
+  <header class="page-intro research-intro">
+    <h1>Research</h1>
+    <p class="lede">We study how computing systems use time, energy, and memory. Our work connects hardware behavior with the decisions made by applications, runtime systems, and autonomous robots.</p>
+  </header>
+  <nav class="topic-nav" aria-label="Research areas">
+    {% for area in site.data.research %}<a href="#{{ area.id }}"><span>{{ area.number }}</span>{{ area.title }}</a>{% endfor %}
+  </nav>
+  {% for area in site.data.research %}
+  <section class="research-topic" id="{{ area.id }}" aria-labelledby="title-{{ area.id }}">
+    <header class="topic-heading">
+      <p class="eyebrow">Research area {{ area.number }}</p>
+      <h2 id="title-{{ area.id }}">{{ area.title }}</h2>
+    </header>
+    <div class="topic-copy">
+      <p class="topic-summary">{{ area.summary }}</p>
+      <p>{{ area.approach }}</p>
+      <dl class="topic-focus">{% for focus in area.focus %}<div><dt>{{ focus.title }}</dt><dd>{{ focus.text }}</dd></div>{% endfor %}</dl>
+      <p class="topic-methods"><strong>Methods</strong> {{ area.methods }}</p>
+    </div>
+    <figure class="topic-figure topic-figure-{{ area.image.style }}">
+      <a class="figure-enlarge" href="{{ area.image.path | relative_url }}" aria-label="View {{ area.title | escape }} figure at full size">
+        <img src="{{ area.image.path | relative_url }}" width="{{ area.image.width }}" height="{{ area.image.height }}" alt="{{ area.image.alt | escape }}" {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}>
+        <span class="figure-hint" aria-hidden="true">View figure ↗</span>
+      </a>
+      <figcaption>{{ area.image.caption }} <a href="{{ area.image.source | relative_url }}">{{ area.image.credit }}</a>.</figcaption>
+    </figure>
+    <div class="topic-references">
+      <span>{% if area.id == 'education' %}Projects and tools{% else %}Related work{% endif %}</span>
+      <div class="resource-links">{% for project in area.projects %}<a href="{{ project.link | relative_url }}">{{ project.name }} <span aria-hidden="true">↗</span></a>{% endfor %}{% unless area.id == 'education' %}<a href="{{ '/publications/#' | append: area.id | relative_url }}">All papers <span aria-hidden="true">→</span></a>{% endunless %}</div>
+    </div>
+    {% if area.support %}<p class="topic-support">{{ area.support }}</p>{% endif %}
+  </section>
+  {% endfor %}
+  <section class="inline-callout"><div><h2>Student research</h2><p>Tell us which topic interests you and what you would like to investigate.</p></div><a class="button" href="{{ '/vacancies/' | relative_url }}">For prospective students <span aria-hidden="true">→</span></a></section>
+</div>

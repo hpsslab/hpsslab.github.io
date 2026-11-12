@@ -1,0 +1,9 @@
+<article class="member">
+  {% if include.member.photo and include.member.photo != 'blank_image.png' and include.member.photo != 'rock.jpg' %}
+  <img class="member-photo" src="{{ '/images/teampic/' | append: include.member.photo | relative_url }}" alt="{{ include.member.name }}" width="112" height="112" loading="lazy">
+  {% else %}
+  {% assign parts = include.member.name | split: ' ' %}
+  <div class="member-initials" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</div>
+  {% endif %}
+  <div><h3>{{ include.member.name }}</h3><p>{{ include.member.info }}</p>{% if include.member.duration %}<p class="small-text">{{ include.member.duration }}</p>{% endif %}{% if include.member.website %}<a href="{{ include.member.website }}">Personal website <span aria-hidden="true">↗</span></a>{% endif %}{% if include.member.email %}<a href="mailto:{{ include.member.email }}">{{ include.member.email }}</a>{% endif %}</div>
+</article>

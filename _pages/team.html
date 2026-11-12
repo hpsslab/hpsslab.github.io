@@ -1,0 +1,16 @@
+---
+title: "People | HPSS Lab"
+layout: default
+nav: team
+excerpt: "Meet the faculty, students, and alumni of the High Performance Systems and Software Lab at Colorado School of Mines."
+permalink: /team/
+---
+<div class="wrapper page-shell">
+  <header class="page-intro"><h1>People</h1><p class="lede">Faculty and students working on heterogeneous systems at Colorado School of Mines.</p></header>
+  <section class="people-section" aria-labelledby="director-title"><h2 id="director-title">Lab director</h2><div class="director-profile"><img src="{{ '/images/teampic/mehmet_belviranli.jpg' | relative_url }}" alt="Mehmet E. Belviranli" width="240" height="280"><div><h3>Mehmet E. Belviranli</h3><p class="director-role">Associate Professor of Computer Science<br>Colorado School of Mines</p><p>Mehmet directs HPSS Lab. His research focuses on heterogeneous architectures, performance and resource modeling, runtime systems, and autonomous computing.</p><p>He received his Ph.D. from the University of California, Riverside in 2016 and worked at Oak Ridge National Laboratory before joining Mines in 2019.</p><div class="resource-links"><a href="https://mehmet.belviranli.com/">Personal website ↗</a><a href="mailto:{{ site.email }}">Email ↗</a><a href="https://scholar.google.com/citations?user=8FX4WfwAAAAJ&amp;hl=en">Google Scholar ↗</a></div></div></div></section>
+  <section class="people-section" aria-labelledby="phd-title"><h2 id="phd-title">Ph.D. students</h2><div class="people-grid">{% for member in site.data.phd_members %}{% include member.html member=member %}{% endfor %}</div></section>
+  <section class="people-section" aria-labelledby="masters-title"><h2 id="masters-title">Master’s students</h2><div class="people-grid">{% for member in site.data.master_members %}{% include member.html member=member %}{% endfor %}</div></section>
+  {% if site.data.bachelor_members.size > 0 %}<section class="people-section" aria-labelledby="undergrad-title"><h2 id="undergrad-title">Undergraduate students</h2><div class="people-grid">{% for member in site.data.bachelor_members %}{% include member.html member=member %}{% endfor %}</div></section>{% endif %}
+  <section class="people-section" aria-labelledby="alumni-title"><h2 id="alumni-title">Alumni</h2><div class="alumni-grid">{% for member in site.data.alumni_members %}{% include member.html member=member %}{% endfor %}</div></section>
+  <section class="inline-callout"><div><h2>Join the lab</h2><p>Learn about the research and introduce your interests.</p></div><a class="button" href="{{ '/vacancies/' | relative_url }}">Prospective students <span aria-hidden="true">→</span></a></section>
+</div>

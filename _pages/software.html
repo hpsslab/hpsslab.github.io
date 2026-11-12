@@ -1,0 +1,12 @@
+---
+title: "Software | HPSS Lab"
+layout: default
+nav: software
+excerpt: "Research implementations, inference tools, and interactive semiconductor training software from HPSS Lab and its collaborators."
+permalink: /software/
+---
+<div class="wrapper page-shell">
+  <header class="page-intro"><h1>Software and demos</h1><p class="lede">Code and interactive tools associated with our research. Each repository provides its own installation instructions and license.</p></header>
+  <section class="software-section"><h2>Research software</h2>{% for item in site.data.software %}{% if item.section != 'software_we_use' %}<article class="software-row"><div><p class="eyebrow">{% if item.section == 'publications' %}Paper implementation{% else %}Research tool{% endif %}</p><h3><a href="{{ item.link }}">{{ item.title }}</a></h3><p>{{ item.description }}</p></div><a class="text-link" href="{{ item.link }}">Repository <span aria-hidden="true">↗</span></a></article>{% endif %}{% endfor %}</section>
+  <section class="software-section"><h2>Semiconductor training tools</h2><article class="software-row"><div><h3>SMILE interactive video</h3><p>Explore a cleanroom video with equipment labels and process information. The demo runs in a browser.</p></div><a class="text-link" href="https://hpss.mines.edu/smile-2dvp/demo.html">Open demo <span aria-hidden="true">↗</span></a></article><article class="software-row"><div><h3>360° cleanroom tour</h3><p>Navigate a panoramic cleanroom view with a floor plan and equipment details.</p></div><a class="text-link" href="https://hpss.mines.edu/smile-2dvp/tour.html">Open tour <span aria-hidden="true">↗</span></a></article><article class="software-row"><div><h3>WebXR cleanroom tour</h3><p>Explore the cleanroom tour in virtual reality on a supported headset.</p></div><a class="text-link" href="https://hpss.mines.edu/smile-2dvp/webxr.html">Open WebXR tour <span aria-hidden="true">↗</span></a></article><p>See the <a href="https://hpss.mines.edu/cortex/smile/">SMILE project page</a> for the augmented reality assistant and research in progress.</p></section>
+</div>

@@ -1,0 +1,242 @@
+- id: ai-acceleration
+  title: AI Acceleration
+  home: true
+  summary: Neural network inference must fit within limits on latency, energy, and memory. A system may contain a GPU
+    and several accelerators, yet leave some of them idle while a model runs on just one processor.
+  approach: We study how to divide inference across processors, choose models for different regions of an image, and
+    schedule networks that run at the same time. The goal is to use available hardware while meeting the application’s
+    accuracy requirements.
+  home_summary: Divide neural network inference across processors while accounting for accuracy, latency, energy, and
+    shared memory.
+  focus:
+  - title: Partitioning and accuracy
+    text: Choose work boundaries without losing objects at image edges or adding excessive data transfers.
+  - title: Concurrent inference
+    text: Account for interference when several models and accelerators share memory bandwidth.
+  methods: Layer and image partitioning, hardware profiling, energy models, and runtime scheduling.
+  image:
+    path: /assets/images/research/ai-inference.jpg
+    width: 960
+    height: 595
+    alt: Street and indoor video frames with red, blue, and green boxes marking regions used for object detection
+    caption: Detection regions change with the scene. Red marks high-priority regions, blue low-priority regions, and
+      green the overall region of interest.
+    credit: DRIFT, Figure 3; scenes from MOT17
+    source: https://mehmet.belviranli.com/papers/iccad26.pdf
+    style: photo
+  number: '01'
+  projects:
+  - name: DRIFT
+    description: Partition each image frame and schedule object detection across multiple accelerators on a system on
+      chip. The work targets lower latency and energy use during continuous detection.
+    link: https://mehmet.belviranli.com/papers/iccad26.pdf
+    label: ICCAD 2026 paper
+  - name: HaX-CoNN
+    description: Schedule concurrent neural networks while accounting for contention in shared memory.
+    link: https://mehmet.belviranli.com/papers/ppopp24.pdf
+    label: PPoPP 2024 paper
+    code: https://github.com/ismetdagli/HaX-CoNN
+  - name: AxoNN
+    description: Assign neural network layers to different accelerators to meet energy and latency targets.
+    link: https://mehmet.belviranli.com/papers/dac22.pdf
+    label: DAC 2022 paper
+  - name: Context-aware object detection
+    description: Select detection models and accelerators according to the scene and available resources.
+    link: https://mehmet.belviranli.com/papers/date24.pdf
+    label: DATE 2024 paper
+  topics: Layer and image partitioning, hardware profiling, energy models, and runtime scheduling.
+- id: edge-computing
+  title: Heterogeneous and edge computing
+  home: true
+  summary: An application can run on a nearby device, an edge server, or a cloud system. The best placement depends on
+    the hardware, available resources, and the other applications already using them.
+  approach: We build models that connect workload behavior to hardware resources. We use those models to predict interference
+    and coordinate placement across devices and clusters.
+  home_summary: Predict resource contention and decide where applications should run across devices, edge servers, and
+    cloud systems.
+  focus:
+  - title: Performance prediction
+    text: Estimate how memory demand and shared resources change execution time when workloads run together.
+  - title: Distributed resource management
+    text: Coordinate local and remote execution across systems with different processors and scales.
+  methods: Analytical performance models, hardware graphs, profiling, and hierarchical scheduling.
+  image:
+    path: /images/pubpic/harness_overview.png
+    width: 1312
+    height: 610
+    alt: HARNESS diagram showing local task placement and a hierarchy of device, edge, and server orchestrators
+    caption: A local device can place work on its own processors or request resources from an edge or server cluster.
+    credit: HARNESS system overview
+    source: https://mehmet.belviranli.com/papers/ics25.pdf
+    style: diagram
+  number: '02'
+  projects:
+  - name: HARNESS
+    description: Coordinate workload placement and resource management across edge and cloud systems with different hardware
+      and scales.
+    link: https://mehmet.belviranli.com/papers/ics25.pdf
+    label: ICS 2025 paper
+  - name: PCCS
+    description: Predict workload slowdown caused by contention for shared memory on heterogeneous systems on chip.
+    link: https://mehmet.belviranli.com/papers/micro21.pdf
+    label: MICRO 2021 paper
+  - name: FLAME
+    description: Represent hardware as a graph for analytical performance modeling at different levels of detail.
+    link: https://mehmet.belviranli.com/papers/date19.pdf
+    label: DATE 2019 paper
+  topics: Analytical performance models, hardware graphs, profiling, and hierarchical scheduling.
+- id: autonomy
+  title: Autonomous systems
+  home: true
+  summary: A robot spends time and energy both on moving and on computing. Its route changes what it needs to perceive,
+    while the cost of perception affects which routes it can complete.
+  approach: We plan motion and computational schedules together. Sampling-based planning explores robot trajectories;
+    Petri nets and constraint solvers represent task dependencies, processor choices, and resource limits. We examine
+    both plan quality and the conditions under which a feasible plan can be found.
+  home_summary: Plan robot motion and computational schedules together under timing, energy, and perception constraints.
+  focus:
+  - title: Motion and perception
+    text: Adapt computational effort to the robot’s position and the image resolution needed along its path.
+  - title: Resource constraints
+    text: Represent time, energy, and task dependencies explicitly when selecting a path and schedule.
+  methods: Sampling-based motion planning, timed Petri nets, and constraint-based optimization.
+  image:
+    path: /assets/images/research/robot-planning.png
+    width: 880
+    height: 558
+    alt: Two robot path plans around an obstacle, with blue and orange segments indicating different perception resolutions
+    caption: The route and perception schedule are coupled. Blue and orange segments use different image resolutions
+      along the path.
+    credit: IROS 2026, Figure 1
+    source: https://mehmet.belviranli.com/papers/iros26.pdf
+    style: diagram
+  number: '03'
+  projects:
+  - name: Computing is Physical
+    description: Combine sampling-based motion planning with constraint-based scheduling to select robot paths and computational
+      schedules under shared resource limits.
+    link: https://mehmet.belviranli.com/papers/iros26.pdf
+    label: IROS 2026 paper
+  - name: Constraint-aware scheduling
+    description: Represent tasks, hardware, and physical constraints with timed Petri nets and optimization models for
+      heterogeneous cyber-physical systems.
+    link: https://mehmet.belviranli.com/papers/ics24.pdf
+    label: ICS 2024 paper
+  topics: Sampling-based motion planning, timed Petri nets, and constraint-based optimization.
+- id: architecture
+  title: Architecture and security
+  home: true
+  summary: A processor’s behavior depends on the memory system around it. Shared memory can limit performance and expose
+    information across applications. New computing technologies also introduce mismatches between processor speed and
+    memory access.
+  approach: We measure contention to understand information leakage on mobile systems. In parallel, we develop architectural
+    simulation for superconducting processors coupled to CMOS memory. Both efforts examine how processors and memory
+    interact.
+  home_summary: Study information leakage through shared memory and the memory bottlenecks of emerging processor architectures.
+  focus:
+  - title: Memory security
+    text: Determine what contention reveals about another workload and evaluate the cost of reducing that leakage.
+  - title: Superconducting systems
+    text: Model the interaction between single-flux-quantum logic and CMOS memory across architectural layers.
+  methods: Contention measurement, side-channel analysis, and end-to-end architectural simulation.
+  image:
+    path: /images/pubpic/memclash2.png
+    width: 1055
+    height: 1177
+    alt: Neural network layers aligned with memory bandwidth measurements and an externally sensed memory pressure trace
+    caption: Neural network layers leave different memory demand patterns. A co-running application can observe changes
+      in memory pressure.
+    credit: Mem-Clash project figure
+    source: /memclash.html
+    style: portrait
+  number: '04'
+  projects:
+  - name: Mem-Clash and MC3
+    description: Investigate information leakage and covert communication through contention in shared DRAM on mobile
+      systems on chip.
+    link: /memclash.html
+    label: Mem-Clash project
+    paper: https://mehmet.belviranli.com/papers/date25.pdf
+  - name: Hibiscus
+    description: Build an end-to-end architectural simulation framework for hybrid single-flux-quantum (SFQ) computing
+      and CMOS memory.
+    link: https://mehmet.belviranli.com/
+    label: ISPASS 2026 publication record
+  topics: Contention measurement, side-channel analysis, and end-to-end architectural simulation.
+  home_image:
+    path: /images/pubpic/memclash3.png
+    width: 775
+    height: 494
+    alt: Diagram of an application measuring memory contention from workloads running on a CPU, GPU, and deep learning
+      accelerator
+    source: /memclash.html
+    credit: Mem-Clash project figure
+    style: diagram
+- id: learning
+  title: Spatial reasoning
+  home: false
+  summary: An agent that edits a diagram must turn an instruction into exact coordinates and valid operations. Describing
+    a scene correctly does not ensure that the agent can place a label, connect objects, or avoid an overlap.
+  approach: We study learning methods whose rewards check the executed action. Digital whiteboards provide tasks with
+    explicit geometry and format constraints, so correctness can be measured directly. We examine the relationship between
+    structured reasoning, model size, inference cost, and spatial accuracy.
+  focus:
+  - title: Verifiable learning
+    text: Use geometric checks and valid operation formats to train and evaluate interactive agents.
+  - title: Reasoning and execution
+    text: Measure whether a reasoning procedure leads to a correct action, and how much computation it requires.
+  methods: Reinforcement learning, structured reasoning, and execution-based evaluation.
+  image:
+    path: /assets/images/research/spatial-reasoning.png
+    width: 1510
+    height: 1238
+    alt: Eight before-and-after whiteboard tasks including line connection, graph coloring, sorting, labeling, overlap
+      removal, and maze placement
+    caption: Whiteboard tasks measure whether an instruction produces the required geometric change.
+    credit: ACL 2026, Figure 1
+    source: https://mehmet.belviranli.com/papers/acl26.pdf
+    style: diagram
+  number: '05'
+  projects:
+  - name: Verifiable reinforcement learning for digital whiteboards
+    description: Train models to create and modify whiteboard objects using structured reasoning and rewards that check
+      spatial and format constraints.
+    link: https://mehmet.belviranli.com/papers/acl26.pdf
+    label: ACL 2026 paper
+  topics: Reinforcement learning, structured reasoning, and execution-based evaluation.
+- id: education
+  number: '06'
+  title: Workforce Development for Semiconductor Industry
+  home: false
+  summary: Cleanroom training requires learners to recognize equipment, follow a procedure, and understand how individual
+    steps affect a process. Interactive software can make those steps visible before and during laboratory work.
+  approach: We connect equipment detection, spatial interfaces, and procedural instructions. Browser videos and virtual
+    tours support preparation; augmented reality provides guidance at the equipment. The research examines detection
+    latency, deployment on edge devices, and how to check interactions during a procedure.
+  focus:
+  - title: Visual and procedural guidance
+    text: Identify cleanroom tools and present instructions in the context of the equipment being used.
+  - title: Laboratory instruction
+    text: Adapt training tools to the Mines cleanroom and connect practice with coursework and an industry capstone.
+  methods: Computer vision, edge inference, augmented reality, and interactive learning tools.
+  image:
+    path: /assets/images/research/cleanroom-ar.png
+    width: 2252
+    height: 1268
+    alt: Augmented reality headset view identifying a spin coater and controller with a panel showing the current training
+      step
+    caption: The cleanroom assistant identifies equipment and displays the current procedure step in a headset.
+    credit: SMILE / ARCA project demonstration
+    source: https://hpss.mines.edu/cortex/smile/
+    style: photo
+  projects:
+  - name: SMILE tools
+    link: https://hpss.mines.edu/cortex/smile/
+  - name: Video demo
+    link: https://hpss.mines.edu/smile-2dvp/demo.html
+  - name: 360° tour
+    link: https://hpss.mines.edu/smile-2dvp/tour.html
+  - name: CoRtEx certificate
+    link: https://hpss.mines.edu/cortex/certificate/
+  support: SMILE is led by Zafer Mutlu at the University of Arizona, with Mehmet Belviranli and B. Kim. The DoD Microelectronics
+    Commons supports SMILE through the ASU SWAP Hub. NNME Southwest supports the CoRtEx certificate at Mines.

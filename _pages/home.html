@@ -1,0 +1,69 @@
+---
+title: "HPSS Lab | Colorado School of Mines"
+layout: default
+excerpt: "Heterogeneous computing, autonomous systems, and computer architecture research at Colorado School of Mines. Explore our work and student research opportunities."
+permalink: /
+---
+<section class="hero wrapper">
+  <div class="hero-copy">
+    <p class="eyebrow">Colorado School of Mines</p>
+    <h1>High Performance Systems and Software Lab</h1>
+    <p class="hero-lede">We study how CPUs, GPUs, and specialized accelerators share work, memory, and energy.</p>
+    <p>Our group at Colorado School of Mines builds models and runtime systems for applications from neural network inference to autonomous robots.</p>
+    <div class="button-row">
+      <a class="button" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="{{ '/vacancies/' | relative_url }}">Join the lab <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <figure class="hero-figure">
+    <img src="{{ '/images/slider7001400/slider1.jpg' | relative_url }}" width="1560" height="870" alt="Colorado School of Mines campus with South Table Mountain in the background" fetchpriority="high">
+    <figcaption><span>Colorado School of Mines</span><span>Golden, Colorado</span></figcaption>
+    <div class="hero-note"><span class="eyebrow">Computer Science</span><p>High performance computing,<br>architecture and AI systems</p></div>
+  </figure>
+</section>
+
+<div class="research-strip"><div class="wrapper strip-inner"><span>AI Acceleration</span><span>Heterogeneous computing</span><span>Autonomous systems</span><span>Architecture and security</span></div></div>
+
+<section class="wrapper section" aria-labelledby="research-title">
+  <div class="section-heading">
+    <div><h2 id="research-title">Research areas</h2></div>
+    <a class="text-link" href="{{ '/research/' | relative_url }}">All research areas <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="research-overview">
+    {% assign home_topics = site.data.research | where: 'home', true %}
+    {% for area in home_topics %}
+    {% assign preview_image = area.home_image | default: area.image %}
+    <article class="research-preview">
+      <figure class="research-preview-figure"><a class="research-preview-image research-preview-{{ preview_image.style }}" href="{{ '/research/#' | append: area.id | relative_url }}" aria-label="Explore {{ area.title | escape }}">
+        <img src="{{ preview_image.path | relative_url }}" alt="{{ preview_image.alt | escape }}" width="{{ preview_image.width }}" height="{{ preview_image.height }}" loading="lazy">
+      </a><figcaption><a href="{{ preview_image.source | relative_url }}">{{ preview_image.credit }}</a></figcaption></figure>
+      <div class="research-preview-copy"><span class="section-number">{{ area.number }}</span><h3><a href="{{ '/research/#' | append: area.id | relative_url }}">{{ area.title }}</a></h3><p>{{ area.home_summary }}</p><a class="text-link" href="{{ '/research/#' | append: area.id | relative_url }}">Research topic <span aria-hidden="true">→</span></a></div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="education-section" aria-labelledby="education-title">
+  <div class="wrapper education-grid">
+    <figure class="education-figure"><img src="{{ '/assets/images/smile-cleanroom-tour.jpg' | relative_url }}" width="1600" height="777" alt="SMILE browser tour showing a cleanroom, its floor plan, and equipment information" loading="lazy"><figcaption>SMILE interactive cleanroom tour</figcaption></figure>
+    <div class="education-copy"><h2 id="education-title">Workforce Development for Semiconductor Industry</h2><p>We develop tools that connect computer vision, interactive software, and semiconductor manufacturing education.</p>
+      <div class="education-item"><h3><a href="https://hpss.mines.edu/cortex/smile/">SMILE <span aria-hidden="true">↗</span></a></h3><p>Interactive videos, 360° cleanroom tours, and augmented reality guidance for learning equipment and procedures.</p><a class="text-link" href="https://hpss.mines.edu/smile-2dvp/demo.html">Try the video demo <span aria-hidden="true">→</span></a></div>
+      <div class="education-item"><h3><a href="https://hpss.mines.edu/cortex/">CoRtEx <span aria-hidden="true">↗</span></a></h3><p>A Mines certificate pathway that combines coursework, laboratory training, and a semiconductor industry capstone.</p><a class="text-link" href="https://hpss.mines.edu/cortex/certificate/">Certificate requirements <span aria-hidden="true">→</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrapper section" aria-labelledby="papers-title">
+  <div class="section-heading"><div><h2 id="papers-title">Recent publications</h2></div><a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a></div>
+  <div class="recent-papers">
+    {% assign recent_papers = site.data.publist | where: 'year', 2026 %}
+    {% for paper in recent_papers %}
+    <article class="paper-row"><div class="paper-venue">{{ paper.venue }}<span>{{ paper.year }}</span></div><div><h3><a href="{{ paper.link.url }}">{{ paper.title }}</a></h3><p>{{ paper.description }}</p></div><a class="paper-link" href="{{ paper.link.url }}" aria-label="{{ paper.link.label | default: 'PDF' }}: {{ paper.title | escape }}">{{ paper.link.label | default: 'PDF' }} <span aria-hidden="true">↗</span></a></article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrapper section home-bottom">
+  <div class="join-panel"><p class="eyebrow">For prospective students</p><h2>Student research</h2><p>We welcome research interest from Ph.D., master’s, and undergraduate students. Explore a project, read a paper, and tell us what you would like to investigate.</p><a class="button" href="{{ '/vacancies/' | relative_url }}">Research with us <span aria-hidden="true">→</span></a><p class="small-text">Led by <a href="https://mehmet.belviranli.com/">Mehmet E. Belviranli</a>, Associate Professor of Computer Science.</p></div>
+  <div class="news-panel"><div class="section-heading"><h2>News</h2><a class="text-link" href="{{ '/allnews.html' | relative_url }}">Archive <span aria-hidden="true">→</span></a></div>{% for article in site.data.news limit: 4 %}<article class="news-item"><p class="news-date">{{ article.date }}</p><div>{{ article.headline | markdownify }}</div></article>{% endfor %}</div>
+</section>

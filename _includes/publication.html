@@ -1,0 +1,10 @@
+<article class="publication-entry" data-year="{{ include.paper.year }}" data-area="{{ include.paper.area }}">
+  <div class="publication-copy">
+    <h3>{% if include.paper.link.url %}<a href="{{ include.paper.link.url }}">{{ include.paper.title }}</a>{% else %}{{ include.paper.title }}{% endif %}</h3>
+    <p class="publication-authors">{{ include.paper.authors }}</p>
+    <p class="publication-venue">{{ include.paper.link.display }}</p>
+    {% if include.paper.description %}<p class="publication-description">{{ include.paper.description }}</p>{% endif %}
+    {% if include.paper.news1 %}<p class="award-note">{{ include.paper.news1 }}</p>{% endif %}
+  </div>
+  {% if include.paper.link.url %}<a class="paper-link" href="{{ include.paper.link.url }}" aria-label="{{ include.paper.link.label }}: {{ include.paper.title | escape }}">{{ include.paper.link.label }} <span aria-hidden="true">↗</span></a>{% endif %}
+</article>

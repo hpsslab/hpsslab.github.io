@@ -1,12 +1,12 @@
 # Publication Implementations - code from published papers
-- title: "Hax-CoNN"
+- title: "HaX-CoNN"
   description: "Shared Memory-Contention-Aware Concurrent DNN Execution for Diversely Heterogeneous SoCs"
   link: "https://github.com/ismetdagli/HaX-CoNN"
   section: publications
 
 # Tools - software tools built by the lab
 - title: "trtutils"
-  description: "High-performance inference engine for image based neural networks with TensorRT"
+  description: "Tools for running image-based neural network inference with TensorRT"
   link: "https://github.com/justincdavis/trtutils"
   section: tools
 

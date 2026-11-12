@@ -1,0 +1,14 @@
+---
+title: "Publications | HPSS Lab"
+layout: default
+nav: publications
+excerpt: "Recent papers and earlier work from HPSS Lab, with authors, venues, and links to papers and implementations."
+permalink: /publications/
+---
+<div class="wrapper page-shell">
+  <header class="page-intro"><h1>Publications</h1><p class="lede">Papers grouped by research area, with recent work listed first in each group.</p><div class="resource-links"><a href="https://scholar.google.com/citations?user=8FX4WfwAAAAJ&amp;hl=en&amp;view_op=list_works&amp;sortby=pubdate">Full list on Google Scholar <span aria-hidden="true">↗</span></a><a href="{{ '/software/' | relative_url }}">Research software <span aria-hidden="true">→</span></a></div></header>
+  <nav class="anchor-nav" aria-label="Publication research areas">{% for area in site.data.publication_areas %}<a href="#{{ area.id }}">{{ area.title }}</a>{% endfor %}</nav>
+  {% for area in site.data.publication_areas %}
+  <section id="{{ area.id }}" class="publication-group" aria-labelledby="papers-{{ area.id }}"><h2 id="papers-{{ area.id }}">{{ area.title }}</h2><div>{% assign papers = site.data.publist | where: 'area', area.id %}{% for paper in papers %}{% include publication.html paper=paper %}{% endfor %}</div></section>
+  {% endfor %}
+</div>
